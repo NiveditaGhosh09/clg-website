@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Techno International New Town | TINT — AICTE Approved · MAKAUT Affiliated</title>
+<meta name="description" content="Techno International New Town (TINT), formerly Techno India College of Technology — among the top engineering colleges in Kolkata, West Bengal. Admissions open for 2026–27.">
+<link rel="icon" href="https://tint.edu.in/images/tict_logo_new_2019.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════ PRELOADER ══════════ -->
+<div class="preloader" id="preloader" aria-hidden="true">
+  <div class="preloader-inner">
+    <img src="https://tint.edu.in/images/tict_logo_new_2019.png" alt="TINT" class="preloader-logo">
+    <div class="preloader-bar"><span></span></div>
+    <p class="preloader-text">TECHNO INTERNATIONAL NEW TOWN</p>
+  </div>
+</div>
+
+<!-- ══════════ SCROLL PROGRESS ══════════ -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ══════════ ADMISSION POPUP ══════════ -->
+<div class="popup-overlay" id="admissionPopup" role="dialog" aria-modal="true" aria-labelledby="popupHeading">
+  <div class="popup-card">
+    <button class="popup-close" id="popupClose" aria-label="Close popup">&times;</button>
+    <div class="popup-glow" aria-hidden="true"></div>
+    <img src="https://tint.edu.in/images/tict_logo_new_2019.png" alt="Techno International New Town logo" class="popup-logo">
+    <span class="popup-eyebrow">AICTE Approved · MAKAUT Affiliated</span>
+    <h2 id="popupHeading">Admissions Open for<br>Academic Session 2026–27</h2>
+    <p class="popup-msg">B.Tech · M.Tech · MCA · MBA · BBA · BCA — secure your seat at one of Kolkata's leading engineering institutes. Book your online counselling today.</p>
+    <p class="popup-helpdesk">Admission Helpdesk: <a href="tel:+919674112076">+91 96741 12076</a> / <a href="tel:+919674112079">2079</a></p>
+    <div class="popup-actions">
+      <a href="https://tintadmission.techtron.net/enquiry/login" target="_blank" rel="noopener" class="btn btn-amber">Apply Now</a>
+      <a href="https://tint.edu.in/admission.html" target="_blank" rel="noopener" class="btn btn-ghost-dark">Download Brochure</a>
+    </div>
+    <label class="popup-check">
+      <input type="checkbox" id="popupDontShow"> Don't show again today
+    </label>
+  </div>
+</div>
+
+<!-- ══════════ TOP UTILITY STRIP ══════════ -->
+<div class="topbar">
+  <div class="container topbar-inner">
+    <div class="topbar-left">
+      <a href="tel:+913323242050">☎ +91 33-2324 2050 / 2091</a>
+      <a href="tel:18002588154" class="hide-sm">Toll Free: 1800 258 8154</a>
+      <a href="mailto:info@tict.edu.in" class="hide-sm">✉ info@tict.edu.in</a>
+    </div>
+    <div class="topbar-right">
+      <a href="https://tint.edu.in/rti/mandatory-disclosure-aicte.html" target="_blank" rel="noopener">Mandatory Disclosure</a>
+      <a href="https://tint.edu.in/tint-anti-ragging.html" target="_blank" rel="noopener">Anti-Ragging</a>
+      <a href="https://tint.edu.in/institution/iqac.html" target="_blank" rel="noopener">IQAC</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ STICKY NAV ══════════ -->
+<header class="nav" id="mainNav">
+  <div class="container nav-inner">
+    <a href="#top" class="brand">
+      <img src="https://tint.edu.in/images/tict_logo_new_2019.png" alt="Techno International New Town official logo" class="brand-logo">
+      <span class="brand-text">
+        <strong>Techno International New Town</strong>
+        <small>Formerly Techno India College of Technology</small>
+      </span>
+    </a>
+    <nav class="nav-links" id="navLinks" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#departments">Departments</a>
+      <a href="#courses">Courses</a>
+      <a href="#placements">Placements</a>
+      <a href="#notices">Notices</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+      <a href="https://tintadmission.techtron.net/enquiry/login" target="_blank" rel="noopener" class="btn btn-amber btn-nav">Apply 2026</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ══════════ 01 · HERO ══════════ -->
+<section class="hero" id="hero">
+  <div class="hero-grid-bg" aria-hidden="true"></div>
+  <div class="hero-spotlight" id="heroSpotlight" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="plot-ref reveal">DG 1/1 · ACTION AREA I · NEW TOWN</span>
+      <h1 class="reveal delay-1">Engineered in the city<br>that was <em>planned first.</em></h1>
+      <p class="hero-sub reveal delay-2">Techno International New Town — an AICTE-approved, MAKAUT-affiliated institute under the Techno India Group, delivering quality engineering and management education since 2005.</p>
+      <div class="hero-cta reveal delay-3">
+        <a href="https://tint.edu.in/tint-admission-enquiry-2026.html" target="_blank" rel="noopener" class="btn btn-amber btn-lg pulse">Admission Open 2026 — Book Counselling</a>
+        <a href="#departments" class="btn btn-ghost">Explore Departments ↓</a>
+      </div>
+      <!-- Accreditation logos: save the official files as logos/aicte.png, logos/makaut.png,
+           logos/naac.png next to index.html and they appear automatically.
+           If a file is missing, the crest gracefully shows text only. -->
+      <div class="hero-crests reveal delay-4">
+        <a href="https://tint.edu.in/rti/tint-aicte-approval.html" target="_blank" rel="noopener" class="crest"><img src="logos/aicte.png" alt="AICTE logo" class="crest-logo" onerror="this.remove()"><span class="crest-txt">AICTE<small>Approved</small></span></a>
+        <a href="https://tint.edu.in/rti/university-affiliation.html" target="_blank" rel="noopener" class="crest"><img src="logos/makaut.png" alt="MAKAUT logo" class="crest-logo" onerror="this.remove()"><span class="crest-txt">MAKAUT<small>Affiliated</small></span></a>
+        <a href="https://tint.edu.in/naac.html" target="_blank" rel="noopener" class="crest"><img src="logos/naac.png" alt="NAAC logo" class="crest-logo" onerror="this.remove()"><span class="crest-txt">NAAC<small>Accreditation</small></span></a>
+        <a href="https://tint.edu.in/nirf.html" target="_blank" rel="noopener" class="crest"><span class="crest-txt">NIRF<small>Data</small></span></a>
+        <a href="https://tint.edu.in/ariia.html" target="_blank" rel="noopener" class="crest"><span class="crest-txt">ARIIA<small>Band Performer</small></span></a>
+      </div>
+    </div>
+    <div class="hero-visual reveal-right">
+      <div class="hero-frame">
+        <img src="https://tint.edu.in/images/2022/home-images/home-2022-02-850_478.jpg" alt="TINT campus" class="hero-slide active">
+        <img src="https://tint.edu.in/images/2022/home-images/home-2022-03-850_478.jpg" alt="TINT laboratories" class="hero-slide">
+        <img src="https://tint.edu.in/images/2022/home-images/home-2022-08-850_478.jpg" alt="TINT students" class="hero-slide">
+        <img src="https://tint.edu.in/images/2022/home-images/home-2022-14-850_478.jpg" alt="TINT campus life" class="hero-slide">
+        <div class="hero-frame-tag">Est. 2005 · New Town, Kolkata</div>
+      </div>
+      <div class="hero-frame-ticks" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ NOTICE TICKER ══════════ -->
+<div class="ticker" aria-label="Latest announcements">
+  <span class="ticker-label">LIVE</span>
+  <div class="ticker-track">
+    <div class="ticker-move">
+      <a href="https://prabuddha.tint.edu.in/" target="_blank" rel="noopener">PRABUDDHA 2026</a>
+      <a href="https://tint.edu.in/icdai/2026/" target="_blank" rel="noopener">4th International Conference on Data Analytics &amp; Insights (ICDAI-2026)</a>
+      <a href="https://tint.edu.in/isicva/2026/" target="_blank" rel="noopener">ISICVA 2026 — 13–14 October 2026</a>
+      <a href="https://tint.edu.in/tint-sem-fees-pay-online.html" target="_blank" rel="noopener">Pay your semester fees online</a>
+      <a href="https://tint.edu.in/images/2025/anti_ragging_committee_2025-2026.pdf" target="_blank" rel="noopener">Anti-Ragging Committee (2025–2026)</a>
+      <a href="https://tint.edu.in/images/2024/student_credit_card/tint-cc_new.jpg" target="_blank" rel="noopener">Students Credit Card Facility</a>
+      <!-- duplicate for seamless loop -->
+      <a href="https://prabuddha.tint.edu.in/" target="_blank" rel="noopener">PRABUDDHA 2026</a>
+      <a href="https://tint.edu.in/icdai/2026/" target="_blank" rel="noopener">4th International Conference on Data Analytics &amp; Insights (ICDAI-2026)</a>
+      <a href="https://tint.edu.in/isicva/2026/" target="_blank" rel="noopener">ISICVA 2026 — 13–14 October 2026</a>
+      <a href="https://tint.edu.in/tint-sem-fees-pay-online.html" target="_blank" rel="noopener">Pay your semester fees online</a>
+      <a href="https://tint.edu.in/images/2025/anti_ragging_committee_2025-2026.pdf" target="_blank" rel="noopener">Anti-Ragging Committee (2025–2026)</a>
+      <a href="https://tint.edu.in/images/2024/student_credit_card/tint-cc_new.jpg" target="_blank" rel="noopener">Students Credit Card Facility</a>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════ 02 · STATISTICS COUNTER ══════════ -->
+<section class="stats" id="stats">
+  <div class="container stats-grid">
+    <div class="stat reveal"><span class="stat-num" data-count="20" data-suffix="+">0</span><span class="stat-label">Years of Excellence</span></div>
+    <div class="stat reveal delay-1"><span class="stat-num" data-count="10">0</span><span class="stat-label">Academic Departments</span></div>
+    <div class="stat reveal delay-2"><span class="stat-num" data-count="19">0</span><span class="stat-label">Programs Offered</span></div>
+    <div class="stat reveal delay-3"><span class="stat-num" data-count="25" data-suffix="+">0</span><span class="stat-label">Top Recruiters</span></div>
+  </div>
+</section>
+
+<!-- ══════════ 03 · NOTICES ══════════ -->
+<section class="section" id="notices">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 03 · CIRCULARS</span>
+      <h2>Latest Notices</h2>
+      <a href="https://tint.edu.in/notices-circulars.html" target="_blank" rel="noopener" class="section-more">All notices →</a>
+    </div>
+    <div class="notice-grid">
+      <a class="notice-card reveal" href="https://tint.edu.in/tint-sem-fees-pay-online.html" target="_blank" rel="noopener">
+        <span class="notice-tag tag-amber">Fees</span>
+        <h3>Pay your semester fees online</h3>
+        <p>Secure online payment facility for all semester fees.</p>
+        <span class="notice-arrow">→</span>
+      </a>
+      <a class="notice-card reveal delay-1" href="https://tint.edu.in/images/2025/anti_ragging_committee_2025-2026.pdf" target="_blank" rel="noopener">
+        <span class="notice-tag">Committee</span>
+        <h3>Anti-Ragging Committee 2025–26</h3>
+        <p>Official committee notification (PDF).</p>
+        <span class="notice-arrow">→</span>
+      </a>
+      <a class="notice-card reveal delay-2" href="https://tint.edu.in/events/1382/aicte-vaani-workshop.html" target="_blank" rel="noopener">
+        <span class="notice-tag">Workshop</span>
+        <h3>AICTE-VAANI Workshop on Advanced Computing</h3>
+        <p>Two-day sponsored workshop held 11–12 September 2025.</p>
+        <span class="notice-arrow">→</span>
+      </a>
+      <a class="notice-card reveal delay-3" href="https://tint.edu.in/images/2024/student_credit_card/tint-cc_new.jpg" target="_blank" rel="noopener">
+        <span class="notice-tag tag-amber">Facility</span>
+        <h3>Students Credit Card Facility</h3>
+        <p>West Bengal Student Credit Card support for admissions.</p>
+        <span class="notice-arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 04 · DEPARTMENTS ══════════ -->
+<section class="section section-dark" id="departments">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref light">PLOT 04 · ACADEMIC BLOCKS</span>
+      <h2>Departments</h2>
+      <a href="https://tint.edu.in/departments.html" target="_blank" rel="noopener" class="section-more">All departments →</a>
+    </div>
+    <div class="dept-grid">
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/computer-science-and-engineering.html" target="_blank" rel="noopener"><span class="dept-code">CSE</span><h3>Computer Science &amp; Engineering</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/information-technology.html" target="_blank" rel="noopener"><span class="dept-code">IT</span><h3>Information Technology</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/electronics-and-comm-engg.html" target="_blank" rel="noopener"><span class="dept-code">ECE</span><h3>Electronics &amp; Communication Engineering</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/electrical-engineering.html" target="_blank" rel="noopener"><span class="dept-code">EE</span><h3>Electrical Engineering</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/applied-electronics-and-instrument-engg.html" target="_blank" rel="noopener"><span class="dept-code">AEIE</span><h3>Applied Electronics &amp; Instrumentation</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/civil-engineering.html" target="_blank" rel="noopener"><span class="dept-code">CE</span><h3>Civil Engineering</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/mechanical-engineering.html" target="_blank" rel="noopener"><span class="dept-code">ME</span><h3>Mechanical Engineering</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/master-of-business-administration.html" target="_blank" rel="noopener"><span class="dept-code">MBA</span><h3>Department of Management Science</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/master-of-computer-application.html" target="_blank" rel="noopener"><span class="dept-code">MCA</span><h3>Master of Computer Application</h3></a>
+      <a class="dept-card reveal" href="https://tint.edu.in/departments/basic-science-and-humanities.html" target="_blank" rel="noopener"><span class="dept-code">BSH</span><h3>Basic Science &amp; Humanities</h3></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 05 · COURSES ══════════ -->
+<section class="section" id="courses">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 05 · PROGRAMS</span>
+      <h2>Courses Offered</h2>
+      <a href="https://tint.edu.in/academics/programs.html" target="_blank" rel="noopener" class="section-more">Program details →</a>
+    </div>
+    <div class="course-cols">
+      <div class="course-col reveal">
+        <h3>B.Tech <small>Undergraduate</small></h3>
+        <ul class="chip-list">
+          <li>CSE</li><li>ECE</li><li>IT</li><li>CSBS</li><li>AI &amp; ML</li>
+          <li>CSE – IoT</li><li>CSE – Data Science</li><li>CSE – Cyber Security</li>
+          <li>AI &amp; DS</li><li>CS &amp; IT</li><li>Civil</li><li>Mechanical</li><li>Electrical</li>
+        </ul>
+      </div>
+      <div class="course-col reveal delay-1">
+        <h3>Postgraduate</h3>
+        <ul class="chip-list">
+          <li>M.Tech (CSE)</li><li>M.Tech (EE)</li><li>MCA</li><li>MBA</li>
+        </ul>
+      </div>
+      <div class="course-col reveal delay-2">
+        <h3>Undergraduate — Management &amp; Applications</h3>
+        <ul class="chip-list">
+          <li>BBA</li><li>BCA</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 06 · PLACEMENTS ══════════ -->
+<section class="section section-dark" id="placements">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref light">PLOT 06 · CAREERS</span>
+      <h2>Placement Highlights</h2>
+      <a href="https://tint.edu.in/placement.html" target="_blank" rel="noopener" class="section-more">Placement cell →</a>
+    </div>
+    <p class="section-lede reveal">Our students are recruited by leading technology, consulting and core-engineering companies across India and beyond.</p>
+    <div class="recruiter-marquee reveal" aria-label="Recruiter company logos">
+      <div class="recruiter-track">
+        <img src="https://tint.edu.in/images/recruiters/recruiters001.png" alt="Tata Consultancy Services">
+        <img src="https://tint.edu.in/images/recruiters/recruiters21_02.png" alt="Capgemini">
+        <img src="https://tint.edu.in/images/recruiters/recruiters02_2.png" alt="Wipro">
+        <img src="https://tint.edu.in/images/recruiters/recruiters25.png" alt="Intel">
+        <img src="https://tint.edu.in/images/recruiters/recruiters26.png" alt="Microsoft">
+        <img src="https://tint.edu.in/images/recruiters/recruiters27.png" alt="SAP">
+        <img src="https://tint.edu.in/images/recruiters/recruiters04.png" alt="Cognizant">
+        <img src="https://tint.edu.in/images/recruiters/recruiters03.png" alt="Infosys">
+        <img src="https://tint.edu.in/images/recruiters/recruiters06.png" alt="Mindtree">
+        <img src="https://tint.edu.in/images/recruiters/recruiters07.png" alt="Accenture">
+        <img src="https://tint.edu.in/images/recruiters/recruiters005.png" alt="LTI — Larsen &amp; Toubro Infotech">
+        <img src="https://tint.edu.in/images/recruiters/recruiters08.png" alt="Amazon">
+        <img src="https://tint.edu.in/images/recruiters/recruiters10.png" alt="IBM">
+        <img src="https://tint.edu.in/images/recruiters/recruiters13.png" alt="Amdocs">
+      </div>
+    </div>
+    <div class="recruiter-marquee reverse reveal" aria-hidden="true">
+      <div class="recruiter-track">
+        <img src="https://tint.edu.in/images/recruiters/recruiters11.png" alt="ADP LLC">
+        <img src="https://tint.edu.in/images/recruiters/recruiters12.png" alt="Zycus">
+        <img src="https://tint.edu.in/images/recruiters/recruiters14.png" alt="Cummins">
+        <img src="https://tint.edu.in/images/recruiters/recruiters15.png" alt="Hettich">
+        <img src="https://tint.edu.in/images/recruiters/recruiters16.png" alt="Johnson Controls">
+        <img src="https://tint.edu.in/images/recruiters/recruiters17.png" alt="Persistent Systems">
+        <img src="https://tint.edu.in/images/recruiters/recruiters18.png" alt="The Linde Group">
+        <img src="https://tint.edu.in/images/recruiters/recruiters19.png" alt="Mphasis">
+        <img src="https://tint.edu.in/images/recruiters/recruiters09.png" alt="Atos">
+        <img src="https://tint.edu.in/images/recruiters/recruiters023.png" alt="Simplex">
+        <img src="https://tint.edu.in/images/recruiters/recruiters22.png" alt="KT">
+        <img src="https://tint.edu.in/images/recruiters/recruiters28.png" alt="Saint-Gobain">
+        <img src="https://tint.edu.in/images/recruiters/recruiters29.png" alt="Asahi India Glass Ltd">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 07 · LEADERSHIP ══════════ -->
+<section class="section" id="leadership">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 07 · FUNCTIONARIES</span>
+      <h2>From the Leadership</h2>
+    </div>
+    <div class="leader-grid">
+      <article class="leader-card reveal">
+        <div class="leader-badge">Chairman's Desk · Techno India Group</div>
+        <h3>A vision of quality education</h3>
+        <p>Techno International New Town is a promising college under the aegis of the Techno India Group, founded with the vision of delivering quality education in engineering, technology and management. Since 2005, the institute has grown with a group of renowned academicians and experienced industry professionals, accelerating knowledge transfer and enriching teaching-learning, research and social outreach.</p>
+        <a href="https://tint.edu.in/about.html" target="_blank" rel="noopener" class="text-link">About the group →</a>
+      </article>
+      <article class="leader-card leader-principal reveal delay-1">
+        <img src="https://tint.edu.in/images/2025/home_page/principal_tint.png" alt="Principal, Techno International New Town" class="leader-photo">
+        <div>
+          <div class="leader-badge">From the Principal's Desk</div>
+          <h3>A sustainable academic environment</h3>
+          <p>At TINT we uphold a multitude of academic activities so that students obtain a strong foundational education, learn the technologies used in the global industry, keep their skills up to date throughout their careers, develop teamwork and communication skills, and become familiar with other cultures and languages.</p>
+          <a href="https://tint.edu.in/from-the-principal-s-desk.html" target="_blank" rel="noopener" class="text-link">Read the full message →</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 08 · ABOUT ══════════ -->
+<section class="section section-tint" id="about">
+  <div class="container about-grid">
+    <div class="about-copy reveal">
+      <span class="plot-ref">PLOT 08 · THE INSTITUTE</span>
+      <h2>About the College</h2>
+      <p>Situated in the industrial township of New Town, Kolkata, <strong>Techno International New Town</strong> (formerly Techno India College of Technology) began its journey in <strong>2005</strong> with a group of renowned academicians and experienced professionals from industry.</p>
+      <p>The focus of the institution is to accelerate knowledge transfer and enrich teaching-learning, research and social outreach — delivering quality education across B.Tech, M.Tech, MCA, MBA, BBA and BCA programs.</p>
+      <div class="about-links">
+        <a href="https://tint.edu.in/tint-at-a-glance.html" target="_blank" rel="noopener" class="btn btn-navy">TINT at a Glance</a>
+        <a href="https://tint.edu.in/institution/institute-ethos/tint-vision-and-mission.html" target="_blank" rel="noopener" class="btn btn-ghost-dark">Vision &amp; Mission</a>
+      </div>
+    </div>
+    <div class="about-visual reveal-right">
+      <img src="https://tint.edu.in/images/2022/home-images/home-2022-01-850_478.jpg" alt="TINT campus building" class="about-img">
+      <div class="about-card-float">
+        <strong>New Town, Kolkata</strong>
+        <span>Block DG 1/1 · Action Area I</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 09 · ACHIEVEMENTS TIMELINE ══════════ -->
+<section class="section" id="achievements">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 09 · MILESTONES</span>
+      <h2>Student &amp; Institute Achievements</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl-item reveal">
+        <span class="tl-year">2026</span>
+        <div class="tl-body">
+          <h3>Faculty research milestones</h3>
+          <p>Multiple faculty members awarded PhD degrees, strengthening the institute's research foundation.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2026</span>
+        <div class="tl-body">
+          <h3>ICDAI &amp; ISICVA international conferences</h3>
+          <p>TINT hosts the 4th International Conference on Data Analytics &amp; Insights and the 2nd International Symposium on Innovations in Computer Vision and Applications.</p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2022</span>
+        <div class="tl-body">
+          <h3>Outlook-ICARE Rankings</h3>
+          <p>Recognised among private engineering colleges in the Outlook-ICARE Rankings 2022. <a href="https://tint.edu.in/images/media2022/outlook-11-July-2022.pdf" target="_blank" rel="noopener" class="text-link">View →</a></p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2021</span>
+        <div class="tl-body">
+          <h3>ARIIA Band Performer</h3>
+          <p>Recognised as Band Performer in the Private/Self-Financed category of the Atal Ranking of Institutions on Innovation Achievements. <a href="https://www.ariia.gov.in/Ranking/2021/Index.html" target="_blank" rel="noopener" class="text-link">Ranking →</a></p>
+        </div>
+      </div>
+      <div class="tl-item reveal">
+        <span class="tl-year">2005</span>
+        <div class="tl-body">
+          <h3>The journey begins</h3>
+          <p>TINT is established in New Town under the Techno India Group.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 10 · RESEARCH & INNOVATION ══════════ -->
+<section class="section section-dark" id="research">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref light">PLOT 10 · R &amp; D</span>
+      <h2>Research &amp; Innovation Highlights</h2>
+      <a href="https://tint.edu.in/research-development.html" target="_blank" rel="noopener" class="section-more">R &amp; D cell →</a>
+    </div>
+    <div class="rd-grid">
+      <a class="rd-card reveal" href="https://tint.edu.in/research-development/publications/journal-publications.html" target="_blank" rel="noopener"><h3>Journal Publications</h3><p>Peer-reviewed research output across departments.</p></a>
+      <a class="rd-card reveal delay-1" href="https://tint.edu.in/research-development/ipr/ipr-patents.html" target="_blank" rel="noopener"><h3>Patents &amp; IPR</h3><p>Dedicated IPR Cell supporting patents and copyrights.</p></a>
+      <a class="rd-card reveal delay-2" href="https://tint.edu.in/institution/tint-iic.html" target="_blank" rel="noopener"><h3>Institution's Innovation Council</h3><p>Fostering innovation and entrepreneurship on campus.</p></a>
+      <a class="rd-card reveal delay-3" href="https://tint.edu.in/research-development/sponsored-project.html" target="_blank" rel="noopener"><h3>Sponsored Projects</h3><p>Funded research including AICTE-sponsored workshops.</p></a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 11 · EVENTS ══════════ -->
+<section class="section" id="events">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 11 · CALENDAR</span>
+      <h2>Upcoming Events</h2>
+      <a href="https://tint.edu.in/events.html" target="_blank" rel="noopener" class="section-more">All events →</a>
+    </div>
+    <div class="event-grid">
+      <a class="event-card reveal" href="https://tint.edu.in/events/1396/4th-international-conference-on-data-analytics-and-insights-icdai-2026.html" target="_blank" rel="noopener">
+        <div class="event-date"><strong>30</strong><span>JUL 2026</span></div>
+        <div class="event-body">
+          <h3>ICDAI-2026</h3>
+          <p>4th International Conference on Data Analytics and Insights · 10:00 AM – 5:00 PM</p>
+        </div>
+      </a>
+      <a class="event-card reveal delay-1" href="https://tint.edu.in/isicva/2026/" target="_blank" rel="noopener">
+        <div class="event-date"><strong>13</strong><span>OCT 2026</span></div>
+        <div class="event-body">
+          <h3>ISICVA 2026</h3>
+          <p>2nd International Symposium on Innovations in Computer Vision and Applications · 13–14 October</p>
+        </div>
+      </a>
+      <a class="event-card reveal delay-2" href="https://prabuddha.tint.edu.in/" target="_blank" rel="noopener">
+        <div class="event-date"><strong>—</strong><span>2026</span></div>
+        <div class="event-body">
+          <h3>PRABUDDHA 2026</h3>
+          <p>The institute's flagship annual fest.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 12 · CAMPUS FACILITIES ══════════ -->
+<section class="section section-tint" id="facilities">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 12 · CAMPUS</span>
+      <h2>Campus Facilities</h2>
+      <a href="https://tint.edu.in/institution/facilities-at-tint.html" target="_blank" rel="noopener" class="section-more">Facilities at TINT →</a>
+    </div>
+    <div class="fac-grid">
+      <a class="fac-card reveal" href="https://tint.edu.in/academics/library.html" target="_blank" rel="noopener"><span class="fac-ico">📚</span><h3>Central Library</h3></a>
+      <a class="fac-card reveal" href="https://csemoodle.tint.edu.in/" target="_blank" rel="noopener"><span class="fac-ico">💻</span><h3>CSE Moodle LMS</h3></a>
+      <a class="fac-card reveal" href="https://tint.edu.in/campus-life/tint-clubs.html" target="_blank" rel="noopener"><span class="fac-ico">🎭</span><h3>Student Clubs</h3></a>
+      <a class="fac-card reveal" href="https://tint.edu.in/campus-life/tint-campus-map.html" target="_blank" rel="noopener"><span class="fac-ico">🗺️</span><h3>Campus Map</h3></a>
+      <a class="fac-card reveal" href="https://tint.edu.in/rti/tint-campus-tour.html" target="_blank" rel="noopener"><span class="fac-ico">🎥</span><h3>Campus Tour</h3></a>
+      <a class="fac-card reveal" href="https://tint.edu.in/institution/innovation-and-entrepreneurship.html" target="_blank" rel="noopener"><span class="fac-ico">🚀</span><h3>Innovation &amp; Entrepreneurship</h3></a>
+    </div>
+    <div class="club-strip reveal">
+      <span>Clubs at TINT:</span>
+      <a href="https://tint.edu.in/campus-life/tint-clubs/tint-music-club-hridmajhare.html" target="_blank" rel="noopener">HRIDMAJHARE (Music)</a>
+      <a href="https://tint.edu.in/campus-life/tint-clubs/tint-photography-club.html" target="_blank" rel="noopener">Photography</a>
+      <a href="https://tint.edu.in/campus-life/tint-clubs/tint-film-club-tint-talkies.html" target="_blank" rel="noopener">TINT Talkies (Film)</a>
+      <a href="https://tint.edu.in/campus-life/tint-clubs/tint-literary-club-litwits.html" target="_blank" rel="noopener">LITWITS (Literary)</a>
+      <a href="https://tint.edu.in/campus-life/tint-clubs/tint-art-club-aesthetica.html" target="_blank" rel="noopener">AESTHETICA (Art)</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 13 · GALLERY ══════════ -->
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref">PLOT 13 · FRAMES</span>
+      <h2>Gallery Preview</h2>
+    </div>
+    <div class="gallery-grid">
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-02-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-02-850_478.jpg" alt="TINT campus" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-03-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-03-850_478.jpg" alt="Computer Science labs" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-05-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-05-850_478.jpg" alt="Electrical engineering" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-06-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-06-850_478.jpg" alt="Mechanical engineering" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-10-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-10-850_478.jpg" alt="Electronics and communication" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-11-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-11-850_478.jpg" alt="Instrumentation" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-12-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-12-850_478.jpg" alt="MCA department" loading="lazy"></button>
+      <button class="g-item reveal" data-full="https://tint.edu.in/images/2022/home-images/home-2022-13-850_478.jpg"><img src="https://tint.edu.in/images/2022/home-images/home-2022-13-850_478.jpg" alt="Management studies" loading="lazy"></button>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-label="Image preview">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+  <img src="" alt="Gallery preview" id="lightboxImg">
+</div>
+
+<!-- ══════════ 14 · TESTIMONIALS ══════════ -->
+<section class="section section-dark" id="testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="plot-ref light">PLOT 14 · VOICES</span>
+      <h2>Voices of TINT</h2>
+    </div>
+    <!-- Replace the quotes below with real student/alumni testimonials before going live -->
+    <div class="testi-grid">
+      <blockquote class="testi-card reveal"><p>"The faculty pushed us beyond the syllabus — the labs and project culture prepared me for my first job interview better than anything else."</p><footer>B.Tech CSE Alumnus</footer></blockquote>
+      <blockquote class="testi-card reveal delay-1"><p>"From club fests to hackathons, campus life at New Town keeps you busy in the best way. There's always something to build or perform."</p><footer>Final-year IT Student</footer></blockquote>
+      <blockquote class="testi-card reveal delay-2"><p>"The placement cell's mock interviews and aptitude training made the recruitment season far less intimidating."</p><footer>MCA Alumna</footer></blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 15 · IMPORTANT LINKS + DOWNLOADS ══════════ -->
+<section class="section" id="links">
+  <div class="container link-cols">
+    <div class="reveal">
+      <span class="plot-ref">PLOT 15A</span>
+      <h2 class="h-sm">Important Links</h2>
+      <ul class="link-list">
+        <li><a href="http://wbut.ac.in/" target="_blank" rel="noopener">University Website — wbut.ac.in</a></li>
+        <li><a href="http://makautexam.net" target="_blank" rel="noopener">University Website — makautexam.net</a></li>
+        <li><a href="https://csemoodle.tint.edu.in/" target="_blank" rel="noopener">CSE Moodle — csemoodle.tint.edu.in</a></li>
+        <li><a href="http://www.tict.edugrievance.com" target="_blank" rel="noopener">Grievance Redressal Portal</a></li>
+        <li><a href="https://tint.edu.in/routine.html" target="_blank" rel="noopener">Class Routine</a></li>
+        <li><a href="https://tint.edu.in/tint-all-cos.html" target="_blank" rel="noopener">All Course Outcomes</a></li>
+        <li><a href="https://tint.edu.in/alumni.html" target="_blank" rel="noopener">Alumni</a></li>
+        <li><a href="https://tint.edu.in/feedback-grievance/feedback-for-college.html" target="_blank" rel="noopener">Feedback for College</a></li>
+      </ul>
+    </div>
+    <div class="reveal delay-1">
+      <span class="plot-ref">PLOT 15B</span>
+      <h2 class="h-sm">Downloads</h2>
+      <ul class="link-list dl">
+        <li><a href="https://tint.edu.in/images/2025/anti_ragging_committee_2025-2026.pdf" target="_blank" rel="noopener">Anti-Ragging Committee 2025–26 (PDF)</a></li>
+        <li><a href="https://tint.edu.in/images/media2022/outlook-11-July-2022.pdf" target="_blank" rel="noopener">Outlook-ICARE Ranking 2022 (PDF)</a></li>
+        <li><a href="https://tint.edu.in/academics/university-syllabus.html" target="_blank" rel="noopener">University Syllabus</a></li>
+        <li><a href="https://tint.edu.in/rti/mandatory-disclosure-aicte.html" target="_blank" rel="noopener">AICTE Mandatory Disclosure</a></li>
+        <li><a href="https://tint.edu.in/rti/tint-aicte-approval.html" target="_blank" rel="noopener">AICTE Approval</a></li>
+        <li><a href="https://tint.edu.in/rti/university-affiliation.html" target="_blank" rel="noopener">University Affiliation</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════ 16 · CONTACT + MAP ══════════ -->
+<section class="section section-tint" id="contact">
+  <div class="container contact-grid">
+    <div class="reveal">
+      <span class="plot-ref">PLOT 16 · REACH US</span>
+      <h2>Contact Information</h2>
+      <address class="contact-block">
+        <strong>Techno International New Town</strong><br>
+        Block – DG 1/1, Action Area 1,<br>
+        New Town, Kolkata – 700156, West Bengal
+      </address>
+      <ul class="contact-list">
+        <li>Phone: <a href="tel:+913323242050">+91-33-2324 2050</a> / <a href="tel:+913323242091">2091</a></li>
+        <li>Toll Free: <a href="tel:18002588154">1800 258 8154</a></li>
+        <li>Fax: +91-33-2324 2090</li>
+        <li>Email: <a href="mailto:info@tict.edu.in">info@tict.edu.in</a></li>
+        <li>Admission Helpdesk: <a href="tel:+919674112076">+91 96741 12076</a> / <a href="tel:+919674112079">2079</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://www.facebook.com/tint.edu.in" target="_blank" rel="noopener" class="social-btn" aria-label="Official Facebook page">Facebook</a>
+        <a href="https://www.instagram.com/technointernationalnewtown" target="_blank" rel="noopener" class="social-btn" aria-label="Official Instagram page">Instagram</a>
+      </div>
+    </div>
+    <div class="map-placeholder reveal-right" role="img" aria-label="Map placeholder — Techno International New Town, New Town, Kolkata">
+      <div class="map-grid" aria-hidden="true"></div>
+      <div class="map-pin" aria-hidden="true">📍</div>
+      <p><strong>Institution Location Map</strong><br>Block DG 1/1, Action Area I, New Town</p>
+      <a href="https://www.google.com/maps/search/?api=1&query=Techno+International+New+Town+Kolkata" target="_blank" rel="noopener" class="btn btn-navy">Open in Google Maps</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════ FOOTER ══════════ -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <img src="https://tint.edu.in/images/tict_logo_new_2019.png" alt="TINT logo" class="footer-logo">
+      <p><strong>Techno International New Town</strong><br>Formerly Techno India College of Technology<br>AICTE Approved · MAKAUT Affiliated · Est. 2005</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/tint.edu.in" target="_blank" rel="noopener" class="social-btn">Facebook</a>
+        <a href="https://www.instagram.com/technointernationalnewtown" target="_blank" rel="noopener" class="social-btn">Instagram</a>
+      </div>
+    </div>
+    <div>
+      <h4>Institute</h4>
+      <ul>
+        <li><a href="https://tint.edu.in/about.html" target="_blank" rel="noopener">About</a></li>
+        <li><a href="https://tint.edu.in/tint-at-a-glance.html" target="_blank" rel="noopener">TINT at a Glance</a></li>
+        <li><a href="https://tint.edu.in/institution/iqac.html" target="_blank" rel="noopener">IQAC</a></li>
+        <li><a href="https://tint.edu.in/committees.html" target="_blank" rel="noopener">Committees</a></li>
+        <li><a href="https://tint.edu.in/institution/tint-telephone-directory.html" target="_blank" rel="noopener">Telephone Directory</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Academics</h4>
+      <ul>
+        <li><a href="https://tint.edu.in/academics.html" target="_blank" rel="noopener">Academics</a></li>
+        <li><a href="https://tint.edu.in/departments.html" target="_blank" rel="noopener">Departments</a></li>
+        <li><a href="https://tint.edu.in/academics/library.html" target="_blank" rel="noopener">Library</a></li>
+        <li><a href="https://tint.edu.in/research-development.html" target="_blank" rel="noopener">R &amp; D</a></li>
+        <li><a href="https://tint.edu.in/tintalks.html" target="_blank" rel="noopener">TINTalks</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Admissions &amp; Compliance</h4>
+      <ul>
+        <li><a href="https://tint.edu.in/admission.html" target="_blank" rel="noopener">Admission</a></li>
+        <li><a href="https://tintadmission.techtron.net/enquiry/login" target="_blank" rel="noopener">Apply Online</a></li>
+        <li><a href="https://tint.edu.in/rti.html" target="_blank" rel="noopener">RTI</a></li>
+        <li><a href="https://tint.edu.in/naac.html" target="_blank" rel="noopener">NAAC</a></li>
+        <li><a href="https://tint.edu.in/nirf.html" target="_blank" rel="noopener">NIRF</a></li>
+        <li><a href="https://tint.edu.in/tint-anti-ragging.html" target="_blank" rel="noopener">Anti-Ragging</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>Copyright © 2026 Techno International New Town (Formerly known as Techno India College of Technology). All Rights Reserved. · <a href="https://tint.edu.in/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════ FLOATING ACTIONS ══════════ -->
+<a href="https://tintadmission.techtron.net/enquiry/login" target="_blank" rel="noopener" class="fab fab-admission" id="fabAdmission">Admissions Open 2026–27</a>
+<div class="fab-stack">
+  <a href="tel:+919674112076" class="fab-mini" title="Call admission helpdesk" aria-label="Call admission helpdesk">☎</a>
+  <a href="mailto:info@tict.edu.in" class="fab-mini" title="Email us" aria-label="Email us">✉</a>
+  <button class="fab-mini back-to-top" id="backToTop" title="Back to top" aria-label="Back to top">↑</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
